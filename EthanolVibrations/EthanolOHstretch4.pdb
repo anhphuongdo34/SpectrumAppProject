@@ -1,0 +1,21 @@
+HEADER
+REMARK Spartan '14 exported M0005
+HETATM    1  C   UNK  0001       1.189  -0.243  -0.020
+HETATM    2  C   UNK  0001      -0.083   0.578   0.046
+HETATM    3  O   UNK  0001      -1.213  -0.260  -0.119
+HETATM    4  H   UNK  0001       1.252  -0.780  -0.972
+HETATM    5  H   UNK  0001       2.070   0.396   0.084
+HETATM    6  H   UNK  0001       1.205  -0.998   0.773
+HETATM    7  H   UNK  0001      -0.099   1.322  -0.750
+HETATM    8  H   UNK  0001      -0.165   1.098   1.007
+HETATM    9  H   UNK  0001      -1.196  -1.022   0.716
+CONECT    1    2    4    5    6
+CONECT    2    1    3    7    8
+CONECT    3    2    9
+CONECT    4    1
+CONECT    5    1
+CONECT    6    1
+CONECT    7    2
+CONECT    8    2
+CONECT    9    3
+END

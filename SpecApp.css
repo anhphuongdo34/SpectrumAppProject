@@ -1,0 +1,194 @@
+m scanvas.ChemDoodleWebComponent {
+	border: 1px solid black;
+}
+html, body {
+	font-family: "Times New Roman", Times, Serif;
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%
+}
+div[id^="spec"] {
+/* 
+	border: 1px solid black;
+ */
+	box-sizing: border-box;
+	padding: 5px;
+	background: #bbeeff;
+}
+header {
+	top: 0;
+	width: 100%;
+	height: 15%;
+	background: #00aabb;
+	position: relative;
+}
+header div {
+	text-align: center;
+	font-size: 2.75em;
+	padding: 5px;
+	position: absolute;
+	top: 50%;
+	height: 1.6em;
+	margin: -0.8em;
+	width: 100%;
+}
+nav {
+	height: 5%;
+	width: 100%;
+	padding: 5px;
+	background: #00aabb;
+    list-style:none;
+}
+section {
+	height: 75%;
+	background: #bbeeff;
+	border-top: 1px solid #0000ff;
+	border-bottom: 1px solid #0000ff;
+}
+#buttons {
+    position: relative;
+    float: left;
+    clear: left;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+footer {
+	background: #dddddd;
+	height: 3%;
+}
+
+#specSpec {
+	float: left;
+	width: 50%;
+	height: 75%;
+}
+#specSpec canvas{
+	float: left;
+	min-width: 600px;
+	min-height: 350px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	
+}
+#specMol {
+	float: left;
+	width: 20%;
+	height: 50%;
+}
+#specMol canvas{
+	margin: auto;
+	background: inherit;
+	min-width: 200px;
+	min-height: 200px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#specFragments {
+	float: right;
+	width: 30%;
+	height: 50%;
+	background-color: white;
+	border: 1px solid black;
+}
+#specDesc {
+	float: right;
+	clear: right;
+	width: 50%;
+	height: 50%;
+}
+#fragTable {
+	width: 450px;
+	height: 275px;
+	background: yellow;
+	opacity: 0.7;
+	z-index: 5;
+	position: fixed;
+	top: 200px;
+	left: 150px;
+	visibility: hidden;
+}
+#fragTable img:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+#IRmovie {
+	width: 302px;
+	height: 302px;
+	opacity: 0.7;
+	z-index: 5;
+	position: fixed;
+	top: 500px;
+	left: 150px;
+	visibility: hidden;
+}
+
+/* 
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+ */
+nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+nav ul li{
+	position:relative;
+	display:inline;
+}
+nav ul a{
+	display:inline-block;
+	padding:5px;
+	cursor: pointer;
+}
+nav ul ul{
+	position:absolute;
+	/*top:100%; Uncommenting this makes the dropdowns work in IE7 but looks a little worse in all other browsers. Your call. */
+	left:-9999px;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+nav ul ul li{
+	display:block;
+}
+nav ul li:hover ul{
+	left:0;
+}
+nav ul li:hover a{
+	text-decoration: none;
+	background: #00aabb;
+}
+nav ul li:hover ul a{
+	text-decoration:none;
+	cursor: pointer;
+}
+nav ul li:hover ul a:hover{
+	text-decoration:none;
+}
+nav ul ul a{
+	white-space:nowrap;
+	display:block;
+}
+a{
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover{
+	text-decoration:none;
+	color: #0044aa;
+}

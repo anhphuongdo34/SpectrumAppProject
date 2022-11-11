@@ -1,0 +1,101 @@
+MacSPARTAN '14 MECHANICS PROGRAM:   (x86/Darwin)                      build  14.119
+
+
+ Geometry Optimization
+
+
+  Reason for exit: Successful completion 
+  Mechanics CPU Time :          .07
+  Mechanics Wall Time:         2.46
+
+
+MacSPARTAN '14 Quantum Mechanics Program:  (x86/Darwin)    build  14.119
+
+Job type: Frequency calculation.
+Method: RHF
+Basis set: 3-21G(*)
+Number of shells: 21
+Number of basis functions: 39
+Multiplicity: 1
+
+SCF model:
+ A restricted Hartree-Fock SCF calculation will be
+ performed using Pulay DIIS + Geometric Direct Minimization
+
+ SCF total energy:    -153.2208396 hartrees
+
+  Reason for exit: Successful completion 
+  Quantum Calculation CPU Time :         1.01
+  Quantum Calculation Wall Time:         4.09
+
+
+
+MacSPARTAN '14 Semi-Empirical Program:  (x86/Darwin)       build  14.119       
+    Semi-empirical Property Calculation 
+
+  M0001                                                                      
+
+  Guess from Archive
+    
+  Energy Due to Solvation
+   Solvation Energy SM5.4/A        -20.439
+  Memory Used:         146.57 Kb
+   
+
+  Reason for exit: Successful completion 
+  Semi-Empirical Program CPU Time :          .04
+  Semi-Empirical Program Wall Time:         2.42
+
+
+
+MacSPARTAN '14 Properties Program:  (x86/Darwin)                 build  14.119 
+   
+   
+
+  Standard Thermodynamic quantities at 298.15 K and 1.00 atm
+
+  Modifying values for 3 low frequency terms
+
+             Term      ZPE     Enthalpy   Entropy     Cv      % in 
+               cm-1    kJ/mol    kJ/mol   J/mol.K   J/mol.K  Ground IR Int.
+    --   ----------   -------   -------   -------      ----
+     1*     392.343    2.3467    0.8320    4.1472    4.1572   84.94   3.36
+     2*     447.492    2.6766    0.6983    3.3613    4.1572   88.46  33.18
+     3*     477.565    2.8565    0.6334    2.9985    4.1572   90.02 154.24
+     4      944.717    5.6507    0.1196    0.4887    1.8484   98.95   4.06
+     5      983.490    5.8826    0.1031    0.4183    1.6554   99.13  11.36
+     6     1161.118    6.9450    0.0514    0.2031    0.9693   99.63  55.62
+     7     1194.870    7.1469    0.0449    0.1767    0.8712   99.69  66.79
+     8     1284.774    7.6847    0.0313    0.1217    0.6513   99.80   7.53
+     9     1442.516    8.6282    0.0164    0.0628    0.3827   99.91  11.61
+    10     1534.883    9.1806    0.0112    0.0425    0.2772   99.94  29.83
+    11     1567.038    9.3730    0.0097    0.0370    0.2474   99.95  28.13
+    12     1599.561    9.5675    0.0085    0.0322    0.2203   99.96   9.78
+    13     1668.611    9.9805    0.0064    0.0240    0.1718   99.97   7.90
+    14     1682.754   10.0651    0.0060    0.0226    0.1631   99.97   3.60
+    15     1707.024   10.2103    0.0054    0.0203    0.1493   99.97   0.73
+    16     3094.099   18.5068    0.0000    0.0000    0.0006  100.00  68.25
+    17     3105.096   18.5726    0.0000    0.0000    0.0006  100.00   9.84
+    18     3128.271   18.7112    0.0000    0.0000    0.0005  100.00   5.21
+    19     3159.179   18.8961    0.0000    0.0000    0.0005  100.00  71.73
+    20     3168.391   18.9512    0.0000    0.0000    0.0004  100.00  37.85
+    21     3783.576   22.6308    0.0000    0.0000    0.0000  100.00   5.64
+    --   ----------   -------   -------   -------      ----
+   Total Vibrations  224.4634    2.5774   12.1571   20.0817
+
+          Ideal Gas              2.4789                    
+        Translation              3.7184  156.5139   12.4716
+           Rotation              3.7184   93.4075   12.4716
+         ----------             -------   -------   -------
+             Totals            236.9566  262.0785   45.0249
+
+ Vibrational(v) Corrections:
+    Temp. Correction    Hv     236.9566  
+  Entropy Correction (Hv-TSv)  158.8179  
+   
+
+  Reason for exit: Successful completion 
+  Properties CPU Time :          .11
+  Properties Wall Time:         2.47
+
+

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Spectroscopic Identification</title>
+	<meta name="description" content="Spectroscopic Identification">
+	<meta name="author" content="Jeff Hansen">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<link rel="stylesheet" href="./SpecApp.css" type="text/css">
+	<script type="text/javascript" src="./ChemDoodleWeb-unpacked-JH.js"></script>
+	<script type="text/javascript" src="./SpecApp.js"></script>
+</head>
+
+<body>
+	<header id="specHeader">
+		<div>Identifying Organic Compounds Using Spectroscopy</div>
+	</header>
+	<nav id="specNav">
+		<ul id="menu">
+			<li>
+				<a>Compounds</a>
+					<ul id="sub-menu">
+					</ul>
+			</li>
+			<li><a onclick="getAndShow(specName, 'MS')">Mass Spectrum</a>
+			</li>
+			<li><a onclick="getAndShow(specName, 'IR')">Infrared</a>
+			</li>
+			<li><a onclick="getAndShow(specName, 'HNMR')">HNMR</a>
+			</li>
+			<li><a onclick="getAndShow(specName, 'CNMR')">CNMR</a>
+			</li>
+		</ul>
+	</nav>
+	<section id="specMain">
+		<div id="specSpec">
+		</div>
+		<div id="specMol">
+		</div>
+			<script>
+				initializeApp();
+			</script>
+
+		<div id="specFragments">
+			<table width = "100%">
+				<tr>
+					<td>
+						<b>Fragment Space</b>
+					</td>
+					<td align = "right" >
+						<a onclick = "showFragTable()" >Click For Fragment Table</a>
+					</td>
+				</tr>
+				<tr>
+					<td id="fragCell" colspan="2" ></td>
+				</tr>
+			</table>
+			<br></br>
+		</div>
+		<div id="specDesc"></div>
+		<div id="fragTable"></div>
+<!-- 
+		<div id="IRmovie"></div>
+		<button id="buttons" onclick = "showVibration('EthanolOHstretch')">Load Movie</button>
+ -->
+		<script>
+			makeFragmentTable(function(){resize()});
+		</script>
+	</section>
+	<footer id="specFooter">
+		<div id="foot">
+		Copyright 2015
+		</div>
+	</footer>
+</body>
+</html>

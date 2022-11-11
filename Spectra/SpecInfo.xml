@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpectroscopyInfo>
+	<Compound>
+		<Name>Ethanol</Name>
+		<Description>
+			Ethanol is a good example for us to begin with.  The spectra are relatively simple but will help us to begin figuring out how to organize the data and think about how to piece the structure together.
+		</Description>
+		<MSDescription>
+			A good practice for determining a structure from its spectra is to begin with the Mass Spectrum.  We want to determine the molecular weight from the MS and use this along with clues from other spectra to determine the molecular formula of the compound.  The molecular formula will allow us to calculate the IHD which will help us figure out if the structure has any rings or multiple bonds.
+		</MSDescription>
+		<MSDescription x="31">
+			This signal is from the molecule fragmenting by losing the CH3 group.
+		</MSDescription>
+		<MSDescription x="45">
+			This signal is from the molecule fragmenting by simply losing one hydrogen atom from the carbon next to the OH.
+		</MSDescription>
+		<MSDescription x="46">
+			This is the molecular ion signal which shows that the molecular weight of this compound is 46.  How do we know the molecular weight is 46 and not 45?  We know that it is normal to see a very small peak (called the M+1 peak) with a mass one greater than the molecular weight due to isotopes of carbon and hydrogen.  Since the M+1 peak should be very small, we know that the signal at 45 can't be for the molecular weight because the peak at 46 is too large to be from isotopes.  So 46 must be the molecular ion peak and 45 must be from loss of a hydrogen.
+		</MSDescription>
+		<MSDescription x="47">
+			This is the M+1 peak.  It is present because some molecules will contain an isotope of carbon with a mass of 13 instead of a mass of 12 or a hydrogen with a mass of 2 instead of a mass of 1.
+		</MSDescription>
+		<IRDescription>
+			The primary feature of this IR spectrum that can help us determine the structure of the compound is the intense, broad signal at about 3400 wavenumbers.  This signal is from the stretching vibration of the O-H single bond.  We can also see sp3 C-H stretching just below 3000 cm-1 and C-O stretching at about 1100 cm-1.  Mouse over the spectrum to see the connection of the signals to the bonds in the molecule.
+		</IRDescription>
+		<IRDescription x="3320">
+			This very broad peak centered around 3320 1/cm is typical of the alcohol functional group.  Click on the "Click for Fragment Table" and add on OH group to the Fragment Space.
+		</IRDescription>
+		<IRDescription x="2970">
+			These signals just below 3000 1/cm are representative of the sp3 C-H stretching vibrations.
+		</IRDescription>
+		<IRDescription x="2925">
+			These signals just below 3000 1/cm are representative of the sp3 C-H stretching vibrations.
+		</IRDescription>
+		<IRDescription x="2870">
+			These signals just below 3000 1/cm are representative of the sp3 C-H stretching vibrations.
+		</IRDescription>		
+		<IRDescription x="1090">
+			Strong signals between 1000 and 1300 1/cm are often indications of the presence of a C-O single bond.  Since these are in the fingerprint region it is wise to be careful about making this assignment.  Always confirm this using other spectra.  In this case the C-O is from an alcohol functional group and the O-H signal at 3320 is sufficient confirmation.
+		</IRDescription>		
+		<IRDescription x="1045">
+			Strong signals between 1000 and 1300 1/cm are often indications of the presence of a C-O single bond.  Since these are in the fingerprint region it is wise to be careful about making this assignment.  Always confirm this using other spectra.  In this case the C-O is from an alcohol functional group and the O-H signal at 3320 is sufficient confirmation.
+		</IRDescription>		
+		<HNMRDescription>
+			This HNMR spectrum provides a lot of information about the structure of the molecule.  We interpret the signals like this: There is a signal at about 3.4 ppm that is a quartet with a relative integration of 2 hydrogens.  Lets break down all of the information in this peak.  First the chemical shift.  Signals in this general region of the spectrum tend to be due to hydrogens bonded to carbons next to oxygens (O-C-H).  The integration tells us that there are two hydrogens in this group so it is probably a CH2.  Finally, the quartet of peaks tells us the neighboring carbon has 3 hydrogens bonded to it.  All together this tells us the molecule contains an O-CH2-CH3 piece.  Click to display the fragment table then click on this piece.  Similarly, the signal at about 1.1 ppm tells us there is a CH3 (integration of 3H) next to a CH2 (three peaks in the signal).  This fits with the signal at about 3.4 ppm.
+		</HNMRDescription>
+		<HNMRDescription x="3.5">
+			The signal at 3.5 ppm has an integration of 2H.  It provides much useful information for determining the structure.  The 2H integration suggest a carbon atom with 2 hydrogens, CH2.  The signal is a quartet. Zoom in by clicking and dragging horizontally if you can't see this.  Unzoom by double clicking.  The quartet indicates the neighboring carbon has 3 hydrogens on it.  Finally, the chemical shift is in a range common for hydrogens next to oxygens.  From this information alone we can determine a piece of the molecule is O-CH2-CH3.  Select that piece from the Fragment Table.
+		</HNMRDescription>
+		<HNMRDescription x="2.9">
+			The signal at 2.9 ppm has an integration of 1H.  It is a singlet.  This is from the OH group.  The OH hydrogen doesn't participate in splitting.  Select the OH from the Fragment Table.
+		</HNMRDescription>
+		<HNMRDescription x="1.2">
+			The signal at 1.2 ppm has an integration of 3H and is a triplet.  It is part of the ethyl group along with the signal at 3.5 ppm.
+		</HNMRDescription>
+		<CNMRDescription>
+			The CNMR spectrum confirms the presence of 2 carbon atoms.  Because one of the signals is shifted downfield (higher ppm),  we can tell that it is likely bonded to an oxygen.
+		</CNMRDescription>
+		<CNMRDescription x="18.135">
+			This signal is from the carbon of the methyl group.
+		</CNMRDescription>
+		<CNMRDescription x="57.874">
+			This signal is from the carbon of the CH2.  It is at a higher chemical shift because it is next to the oxygen atom.
+		</CNMRDescription>
+		<SpecName>Ethanol</SpecName>
+	</Compound>
+	<Compound>
+		<Name>t-Butyl Methyl Ether</Name>
+		<Description>
+			While the structure of tert-buty methyl ether seems simple, there are a few tricky aspects to interpreting the spectra of this compound.  One thing that is at once both a bit confusing and informative is the lack of any information from splitting in the HNMR. A good practice for determining a structure from its spectra is to begin with the Mass Spectrum.  We want to determine the molecular weight from the MS and use this along with clues from other spectra to determine the molecular formulat of the compound.  The molecular formula will allow us to calculate the IHD which will help us figure out if the structure has any rings or multiple bonds.
+		</Description>
+		<MSDescription>
+			This compound fragments so easily that the molecular ion peak is not visible.  The molecular weight is 88 and the peak at 73 is from fragmentation by losing one of the methyl groups from the t-butyl.
+		</MSDescription>
+		<MSDescription x="73">
+			This compound fragments so easily that the molecular ion peak is not visible.  The molecular weight is 88 and the peak at 73 is from fragmentation by losing one of the methyl groups from the t-butyl.
+		</MSDescription>
+		<IRDescription>
+			There are few informative peaks in this spectrum.  We can see that the typical sp3C-H stretching signals are present as is a C–O stretching signal.  The relatively large peaks at 2350 1/cm is from residual carbon dioxide.
+		</IRDescription>
+		<IRDescription x="2974">
+			The peak at 2974 1/cm is due to sp3 C-H stretching vibrations.  The other smaller peaks at slightly lower frequencies are also from this type of vibration.
+		</IRDescription>
+		<IRDescription x="1083">
+			The peak at 1083 1/cm is due to C-O stretching vibrations.
+		</IRDescription>
+		<HNMRDescription>
+			Only two signals and both singlets?  Not much to go on here, but it is enough.  While not shown on the spectrum, the integration of the signal at about 3.2 ppm is 3H and the signal at about 1.2 ppm is 9H.  The chemical shift of 3.2 ppm is indicative of being bonded to an oxygen so we can add an O–CH3 piece to the Fragment Space above.  You can do so by clicking on the _Click For Fragment Table_ link, find an -)CH3 piece, and click it.  The signal at 1.2 ppm has the chemical shift of a normal alkane signal so these nine hydrogens must not be directly next to the oxygen; they must be near only carbons.  The only way to achieve this is with three methyl groups bonded to the same carbon: a t-butyl group.  Add that to the Fragment Space too.
+		</HNMRDescription>
+		<HNMRDescription x="1.155">
+			This signal is from the t-butyl group hydrogens.  Each of these is next to a carbon (in the middle of the t-butyl group) that has no hydrogens on it, which is why this signal is a singlet.  Click on the t-butyl group in the fragment table to add that piece to the fragment space.
+		</HNMRDescription>
+		<HNMRDescription x="3.18">
+			This signal is from the methyl group next to the oxygen.  The oxygen is the cause of the higher chemical shift.  Since the methyl group is not next to an atom with a hydrogen this signal is also a singlet.  Click on the OCH3 group in the fragment table to add that piece to the fragment space.
+		</HNMRDescription>
+		<CNMRDescription>
+			The CNMR spectrum has three signals.  (There is a group of three peaks at about 77 ppm that is from the solvent.)  Two carbon atoms are bonded to oxygen which makes their chemical shifts higher: about 72 ppm and about 50 ppm.  The higher one is from the t-butyl middle carbon.  We know this in part because it is small.  Carbon atoms with no hydrogen attached produce smaller signals and this is the smallest signal of the three.  The remaining signal, at about 27ppm, is from the three methyls that are part of the t-butyl.  It is so large because it has hydrogens attached and there are three carbons contributing to the signal compared to just one for the signals at 50 and 72 ppm.
+		</CNMRDescription>
+		<CNMRDescription x="27.027">
+			This signal at 27 ppm is from the methyl groups of the t-butyl.  They are farthest from the oxygen so have the lowest chemical shift.
+		</CNMRDescription>
+		<CNMRDescription x="49.518">
+			This signal at 49.5 ppm is from the O-CH3 carbon.  The oxygen causes the chemical shift to be higher than a normal alkane.
+		</CNMRDescription>
+		<CNMRDescription x="72.843">
+			This signal at about 73 ppm is from the t-butyl central carbon.  The oxygen shifts the signal higher.  It is higher than the OCH3 signal because it is more substituted.
+		</CNMRDescription>
+		<SpecName>tBuMeEther</SpecName>
+	</Compound>
+	<Compound>
+		<Name>3-Pentanone</Name>
+		<Description>
+			The key for structures like 3-Pentanone is to recognize the symmetry in the molecule.  Clues to this come from the small number of HNMR and CNMR signals and the molecular weight which indicates more than the 3 carbons that are evident from the NMR.
+		</Description>
+		<MSDescription>
+			What is the molecular weight of 3-pentanone? 
+		</MSDescription>
+		<MSDescription x="57">
+			This peak comes from loss of an ethyl group (mass of 29) from the molecular ion to produce a fragment with mass of 57.
+		</MSDescription>
+		<MSDescription x="86">
+			This is the molecular ion for 3-pentanone which has a molecular weight of 86.
+		</MSDescription>
+		<IRDescription>
+			3-Pentanone IR Description
+		</IRDescription>
+		<IRDescription x="2977">
+			This is from sp3 C-H stretching.
+		</IRDescription>
+		<IRDescription x="1712">
+			This is from the carbonyl, C=O, stretching.  Add the C=O to the Fragment Space.
+		</IRDescription>
+		<HNMRDescription>
+			Together the  signals in this spectrum make a common pattern – the ethyl group pattern of a 2H quartet and a 3H triplet.  Add the appropriate fragment from the fragment table.
+		</HNMRDescription>
+		<HNMRDescription x="2.35">
+			This is the signal for the CH2 group.  It is shifted to 2.35 ppm because it is next to a carbonyl group.  It has an integration of 2H and is a quartet because it has 3 neighbors (the CH3 group).  If you haven't already, add the appropriate fragment from the fragment table.
+		</HNMRDescription>
+		<HNMRDescription x="0.98">
+			This is the signal for the CH3 group.  It has an integration of 3H and is a triplet because it has 2 neighbors (the CH2 group).  If you haven't already, add the appropriate fragment from the fragment table.
+		</HNMRDescription>
+		<CNMRDescription>
+			3-Pentanone CNMR Description
+		</CNMRDescription>
+		<CNMRDescription x="7.89">
+			Signal for the methyl groups.
+		</CNMRDescription>
+		<CNMRDescription x="35.46">
+			Signal for the CH2 groups.
+		</CNMRDescription>
+		<CNMRDescription x="212.31">
+			Signal for the carbonyl group.  If you haven't already, add the carbonyl fragment from the fragment table.
+		</CNMRDescription>
+		<SpecName>3-Pentanone</SpecName>
+	</Compound>
+	<Compound>
+		<Name>2-Pentanone</Name>
+		<Description>
+			Looking at the structure of 2-pentanone, we anticipate C-H and C=O stretching vibration signals in the IR, a methyl singlet and signals for a propyl group in the HNMR, and 5 different signals in the CNMR one of which will have a high chemical shift.
+		</Description>
+		<MSDescription>
+			What is the molecular weight of 2-pentanone?
+		</MSDescription>
+		<MSDescription x="43">
+			A fragmentation peak.
+		</MSDescription>
+		<MSDescription x="86">
+			The molecular ion peak.
+		</MSDescription>
+		<IRDescription>
+			We see what we expect in this spectrum.  The most prominent signal is for the carbonyl group of the ketone at about 1713 1/cm.
+		</IRDescription>
+		<IRDescription x="2963">
+			2963 1/cm
+		</IRDescription>
+		<IRDescription x="1713">
+			1713 1/cm
+		</IRDescription>
+		<HNMRDescription>
+			The methyl group next to the ketone is readily identifiable as a singlet at about 2.1 ppm.  The propryl group makes a pattern you should become familiar with.  The first CH2 signal (integration of 2) is a triplet because it has 2 neighbors.  The second CH2 signal (integration of 2) has six peaks because it has 5 neighbors, 2 on one side and 3 on the other.  Finally, the methyl group signal at 0.85 ppm (integration of 3) is also a triplet (2 neighbors).
+		</HNMRDescription>
+		<HNMRDescription x="0.8535">
+			Triplet at 0.85 ppm.
+		</HNMRDescription>
+		<HNMRDescription x="1.55">
+			Sextet at 1.55 ppm.
+		</HNMRDescription>
+		<HNMRDescription x="2.07">
+			Singlet at 2.1 ppm.
+		</HNMRDescription>
+		<HNMRDescription x="2.35">
+			Triplet at 2.35 ppm.
+		</HNMRDescription>
+		<CNMRDescription>
+			2-Pentanone CNMR Description
+		</CNMRDescription>		
+		<CNMRDescription x="13.71">
+			13.71 ppm
+		</CNMRDescription>		
+		<CNMRDescription x="17.3">
+			17.30 ppm
+		</CNMRDescription>		
+		<CNMRDescription x="29.9">
+			29.90 ppm
+		</CNMRDescription>		
+		<CNMRDescription x="45.69">
+			45.69 ppm
+		</CNMRDescription>		
+		<CNMRDescription x="209.31">
+			209.31 ppm
+		</CNMRDescription>		
+		<SpecName>2-Pentanone</SpecName>
+	</Compound>
+
+<!-- 
+	<Compound>
+		<Name>Propylbenzene</Name>
+		<Description>
+			Text for Propylbenzene.
+		</Description>
+		<MSDescription>
+			Propylbenzene MS Description
+		</MSDescription>
+		<IRDescription>
+			Propylbenzene IR Description
+		</IRDescription>
+		<HNMRDescription>
+			Propylbenzene HNMR Description
+		</HNMRDescription>
+		<CNMRDescription>
+			Propylbenzene CNMR Description
+		</CNMRDescription>
+		<SpecName>Propylbenzene</SpecName>
+	</Compound>
+	<Compound>
+		<Name>3-ChloroAniline</Name>
+		<Description>
+			Text for 3-ChloroAniline.
+		</Description>
+		<MSDescription>
+			3-ChloroAniline MS Description
+		</MSDescription>
+		<IRDescription>
+			3-ChloroAniline IR Description
+		</IRDescription>
+		<HNMRDescription>
+			3-ChloroAniline HNMR Description
+		</HNMRDescription>
+		<CNMRDescription>
+			3-ChloroAniline CNMR Description
+		</CNMRDescription>
+		<SpecName>3-ChloroAniline</SpecName>
+	</Compound>
+ -->
+
+</SpectroscopyInfo>

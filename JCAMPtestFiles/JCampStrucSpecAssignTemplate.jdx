@@ -1,0 +1,85 @@
+##TITLE=tBuMeEther $$ Begin of the link block
+##JCAMP-DX=5.00
+##ORIGIN= 
+##OWNER= 
+##DATA TYPE=LINK
+##BLOCKS=4
+##TITLE=tBuMeEther $$ Begin of the structure block
+##JCAMP-CS=3.7 $$ ACD/Spectrus 2012 v 14.01
+##ORIGIN= 
+##OWNER= 
+##BLOCK_ID=1
+##JCAMP-CS=3.7 $$ChemDoodle v8.0.1
+##ORIGIN=null
+##OWNER=UNKNOWN
+##MOLFORM=C5 H12 O
+##ATOMLIST=
+
+$$Paste structure data here
+
+$$$$
+##CROSS REFERENCE=NMR PEAK ASSIGNMENTS: BLOCK_ID = 2
+##END=$$ End of the structure block
+##TITLE=tBuMeEther $$ Begin of the assignment block
+##JCAMP-DX=5.00
+##ORIGIN= 
+##OWNER= 
+##CROSS REFERENCE=STRUCTURE: BLOCK_ID = 1
+##BLOCK_ID=2
+##.OBSERVE FREQUENCY=300.03180
+##.OBSERVE NUCLEUS=^1H
+##DATA TYPE=NMR PEAK ASSIGNMENTS
+##DATA CLASS=ASSIGNMENTS
+##NPOINTS=7
+##XUNITS=PPM
+##YUNITS=ARBITRARY UNITS
+##PEAK ASSIGNMENTS=(XYMA)
+
+$$Edit peak assignments
+
+(1.99527,1.00, ,<9>)
+(6.71349,0.34, ,<14>)
+(6.71349,0.34, ,<15>)
+(7.36380,0.34, ,<12>)
+(7.36380,0.34, ,<13>)
+(9.66946,0.16, ,<17>)
+(9.66946,0.16, ,<16>)
+##END=$$ End of the assignment block
+##TITLE=tBuMeEther $$ Begin of the peaks block
+##JCAMP-DX=5.00 $$ ACD/Spectrus 2012 v 14.01
+##ORIGIN= 
+##OWNER= 
+##BLOCK_ID=3
+##DATA TYPE=NMR SPECTRUM
+##DATA CLASS=PEAK TABLE
+##.OBSERVE FREQUENCY=300.03180
+##.OBSERVE NUCLEUS=^1H
+##NPOINTS=7
+##FIRSTX=1.99751592
+##LASTX=9.65193939
+##MAXX=21455662.00000000
+##MINX=3521054.50000000
+##MAXY=0.00000000
+##MINY=0.00000000
+##XFACTOR=1.0000000000
+##YFACTOR=21455662.000000000000000
+##FIRSTY=21455662.00000000
+##XUNITS=PPM
+##YUNITS=ARBITRARY UNITS
+##PEAK TABLE=(XY..XY)
+
+$$Edit peak table
+
+1.99752, 1
+6.69714, 0.3253
+6.72637, 0.3424
+7.35181, 0.338
+7.38201, 0.3103
+9.15509, 0.2234
+9.65194, 0.1641
+##END=$$ End of the peaks block
+
+$$Paste spectrum data here
+
+##END=$$ End of the data block
+##END=$$ End of the link block

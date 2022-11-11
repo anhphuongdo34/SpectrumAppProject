@@ -1,0 +1,35 @@
+# Verbose Mode: 1 
+# version : MacSPARTAN '14 14.119  14.119 x86/Darwin
+# rootKeys: 'SOPT' 'HF' '3-21G(*)' '' 'PREOPT=MMFF'
+# Task    :  SOPT 'Single Point Energy'
+# Method  :    HF 'Hartree-Fock'
+# Basis   : 3-21G(*)
+# PreStep :   (2)
+# PreStep : PREOPT=MMFF  (1)
+# new Keys: 'SOPT HF 3-21G(*) PREOPT=MMFF FREQ '
+# old Keys: 'SOPT HF 3-21G(*) PREOPT=MMFF FREQ '
+#         : 'Same Base Keywords'
+# new Prop: 'THERMO PRINTFREQ '
+# old Prop: 'THERMO PRINTFREQ '
+# hessian : '3-21G(d)' (1)
+# wavefn  : '' (0)
+# charge/m:  (0 1) (0 1)
+# IRS     :    0  [a8 0 n=6]
+# product#:  0x40000000 (0,0,0)
+# HF ver. :  4 [QC]
+# Graphic :  1
+# graphinf:  ''
+# graphopt:  ''
+# Atoms   :  9 (6,3,0,0)   46.1
+# Avail RAM: 8192.00 Mb
+# Method  :  HF (3)
+# ..Local?:  0 0
+# ..Dense?:  0 0
+# Localize Button : 'NO'
+# Density  Button : '?'
+# UV  Button : 'POSSIBLE'
+# NMR Button : 'POSSIBLE'
+# ECP Button : 'NOT POSSIBLE'
+# RAMAN      : 'POSSIBLE'
+# QSAR2      : 'POSSIBLE'
+# Molecule Mode: 'Completed' [0]
